@@ -1,0 +1,20 @@
+
+p{
+    font-size: 50px;
+    color: aqua;
+}
+img {
+    height: 250px;
+    width: 500px;
+}
+iframe{
+    height: 315px;
+    width:560px;
+}
+.flexbox{
+    display: flex;
+}
+
+.flexbox > img{
+    size-adjust: auto;
+}
