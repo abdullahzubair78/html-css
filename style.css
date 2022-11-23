@@ -11,3 +11,10 @@ iframe{
     height: 315px;
     width:560px;
 }
+.flexbox{
+    display: flex;
+}
+
+.flexbox > img{
+    size-adjust: auto;
+}
