@@ -39,7 +39,7 @@
 
 <p cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
     for short quotations that don't require paragraph breaks.</P>
-</body>
+
 
 <abbr title="This is an abbrevation">abbr</abbr>
 
@@ -65,5 +65,15 @@ ple:
 <sup>this is a super script</sup>
 <time >20 January 2016</time>
 
-<iframe src="./index.html" frameborder="0"></iframe>
+<iframe src="./index.html" frameborder="0" id="target"></iframe>
+
+</body>
+
+<script>
+  var div = document.getElementById("target");
+  div.onload = function() {
+      div.style.height =
+        div.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 </html>
