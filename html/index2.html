@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML Page</title>
+    <link rel="stylesheet" href="../Styles/styles2.css">
+</head>
+<body>
+    <!-- working with discription lists -->
+    <dl>
+        <dt> This is just a test term</dt>
+        <dd>this is the actual description of the test term</dd>
+    </dl>
+ 
+    <label for="dl">this is a lable for </label>
+
+    <p >The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+        Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+
+        <blockquote cite = https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote> this si a block quote </blockquote>
+
+        <blockquote
+  cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+  <p>
+    The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+    <em>HTML Block Quotation Element</em>) indicates that the enclosed text is
+    an extended quotation.
+  </p>
+
+  <p>
+    According to the
+    <!-- <a href="/en-US/docs/Web/HTML/Element/blockquote"> -->
+      <cite>MDN blockquote page</cite>
+    <!-- </a> -->
+  </p>
+</blockquote>
+
+<p cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+    for short quotations that don't require paragraph breaks.</P>
+
+
+<abbr title="This is an abbrevation">abbr</abbr>
+
+<address>Chris Mills, Manchester, The Grim North, UK</address>
+
+ple:
+
+<!-- <address>
+  <p>
+    Chris Mills<br />
+    Manchester<br />
+    The Grim North<br />
+    UK
+  </p> -->
+
+  <!-- <ul>
+    <li>Tel: 01234 567 890</li>
+    <li>Email: me@grim-north.co.uk</li>
+  </ul>
+</address>
+<sub>this is a subscript</sub> -->
+<!-- subscript will always be on top unless there's anything in between the declarations -->
+<!-- <sup>this is a super script</sup>
+<time >20 January 2016</time> -->
+
+<iframe src="./index.html" frameborder="0" id="target"></iframe>
+
+</body>
+
+<script>
+  var iframe = document.getElementById("target");
+
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+</script>
+</html>
