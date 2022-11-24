@@ -5,7 +5,7 @@ p{
 }
 img {
     height: 250px;
-    width: 500px;
+    width: 450px;
 }
 iframe{
     height: 315px;
@@ -16,5 +16,5 @@ iframe{
 }
 
 .flexbox > img{
-    size-adjust: auto;
+    size-adjust: 200px;
 }

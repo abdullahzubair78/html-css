@@ -47,33 +47,33 @@
 
 ple:
 
-<address>
+<!-- <address>
   <p>
     Chris Mills<br />
     Manchester<br />
     The Grim North<br />
     UK
-  </p>
+  </p> -->
 
-  <ul>
+  <!-- <ul>
     <li>Tel: 01234 567 890</li>
     <li>Email: me@grim-north.co.uk</li>
   </ul>
 </address>
-<sub>this is a subscript</sub>
+<sub>this is a subscript</sub> -->
 <!-- subscript will always be on top unless there's anything in between the declarations -->
-<sup>this is a super script</sup>
-<time >20 January 2016</time>
+<!-- <sup>this is a super script</sup>
+<time >20 January 2016</time> -->
 
 <iframe src="./index.html" frameborder="0" id="target"></iframe>
 
 </body>
 
 <script>
-  var div = document.getElementById("target");
-  div.onload = function() {
-      div.style.height =
-        div.contentWindow.document.body.scrollHeight + 'px';
-  }
+  var iframe = document.getElementById("target");
+
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
 </script>
 </html>
