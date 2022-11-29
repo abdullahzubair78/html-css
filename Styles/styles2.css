@@ -1,13 +1,12 @@
-iframe{
+iframe {
+  overflow: hidden;
+  /* width: 100%; */
+  height: 100%;
+  padding-bottom: 10px;
+  border: 0;
+  width: fit-content;
+  /* height: 1050px; */
+  /* size: 0vmax; */
 
-    overflow: hidden;
-    /* width: 100%; */
-    height: 100%;
-    padding-bottom: 10px;
-    border: 0;
-    width:fit-content;
-    /* height: 1050px; */
-    /* size: 0vmax; */
-
-    /* display:contents; */
+  /* display:contents; */
 }
