@@ -1,21 +1,17 @@
 
-p{
-    font-size: 50px;
-    color: aqua;
-}
 img {
-    height: 250px;
-    width: 450px;
+  height: 250px;
+  width: 450px;
 }
-iframe{
-    height: 315px;
-    width:560px;
+iframe {
+  height: 315px;
+  width: 560px;
 }
-.flexbox{
-    display: flex;
+.flexbox {
+  display: flex;
 }
 
-.flexbox > img{
-    size-adjust: 200px;
+.flexbox > img {
+  size-adjust: 200px;
 }
  /* this is just a test */
